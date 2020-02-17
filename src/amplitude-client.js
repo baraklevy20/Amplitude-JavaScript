@@ -1170,6 +1170,8 @@ AmplitudeClient.prototype._logEvent = function _logEvent(eventType, eventPropert
       event_id: eventId,
       session_id: this._sessionId || -1,
       event_type: eventType,
+      adid: 'abcc8592-457e-4d8f-bfc2-6b9da487fcea',
+      androidADID: 'abcc8592-457e-4d8f-bfc2-6b9da487fcea',
       version_name: _shouldTrackField(this, 'version_name') ? (this.options.versionName || versionName || null) : null,
       platform: _shouldTrackField(this, 'platform') ? this.options.platform : null,
       os_name: _shouldTrackField(this, 'os_name') ? (osName || null) : null,
